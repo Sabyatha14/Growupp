@@ -1,0 +1,90 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="signup.css">
+        <link rel="stylesheet" href="navstyle.css">
+    <link rel="stylesheet" href="navresponsive.css">
+    </head>
+
+    <body>
+        <!--nav start-->
+        <div class="nav-wrapper">
+            <div class="logo-container">
+                <img class="logo" src="growwuplogo (1).png" alt="Logo">
+            </div>
+            <nav>
+                <input class="hidden"  type="checkbox" id="menuToggle">
+                <label class="menu-btn"  ;" for="menuToggle">
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                </label>
+                <div class="nav-container">
+                    <ul class="nav-tabs">
+                        <li  class="nav-tab"><a href="/front/growupp/grow/index.html">Home</a>
+                            <!-- <hr class="hr-nav"> -->
+                        </li>
+                        <li class="nav-tab"><a href="/HOW WE WORK/HOW WE WORK/how/how.html">How we work</a>
+                            <!-- <hr class="hr-nav"> -->
+                        </li>
+                        <li class="nav-tab"><a href="/ABOUT/about.html">About</a>
+                            <!-- <hr class="hr-nav"> -->
+                        </li>
+                        
+                        <li class="nav-tab"><a href="/CONTACT/contact.html">Contact</a>
+                            <!-- <hr class="hr-nav"> -->
+                        </li>
+                       
+                        <li class="nav-tab ">
+                            <button class="custom-btn btn-16">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--nav ends-->
+        <div class="main1">
+            <div class="row1">
+             <div class="box1">
+                <!-- form start from here-->
+                <form class="form1" action="/action_page.php" style="border:1px solid #ccc">
+                    <div class="container">
+                      <h1 class="h11">Sign Up</h1>
+                      <p class="p1">Please fill in this form to create an account.</p>
+                      <hr class="hr1">
+                  
+                      <label for="email"><b>Email</b></label>
+                      <input type="text" placeholder="Enter Email" name="email" required>
+                  
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                  
+                      <label for="psw-repeat"><b>Repeat Password</b></label>
+                      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                      
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                      </label>
+                      
+                      <p class="p1">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                  
+                      <div class="clearfix">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                      </div>
+                    </div>
+                  </form>
+                  <!--form ends here-->
+             </div>
+             <div class="box2">
+                <img class="phone" src="Group 7288.png" alt="">
+             </div>
+            </div>
+       </div>
+    </body>
+    </html>
